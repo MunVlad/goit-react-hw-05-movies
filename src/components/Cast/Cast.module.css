@@ -1,0 +1,36 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.item p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #555;
+}

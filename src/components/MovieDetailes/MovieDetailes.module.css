@@ -1,0 +1,38 @@
+.container {
+  padding: 0 40px;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+}
+
+.overviewWrap {
+  display: flex;
+  margin-top: 20px;
+}
+
+.overviewInfo {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.titleFirst {
+  padding: 10px;
+}
+
+.titleSecond {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.list {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.item {
+  padding: 10px;
+}
